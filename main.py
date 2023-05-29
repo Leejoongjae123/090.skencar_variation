@@ -98,6 +98,7 @@ def getDetail(elemBrand):
         json.dump(result, f, indent=2,ensure_ascii=False)
 
 
+
     result1 = result['iNav']['Nodes'][1]['Facets'][elemBrand['brandIndex']]['Refinements']["Nodes"][0]['Facets'][elemBrand['countIndex']]['Refinements']['Nodes'][0]['Facets']
     # result1=result['iNav']['Nodes'][1]['Facets'][1]['Refinements']["Nodes"][0]['Facets'][elemBrand['countIndex']]['Refinements']['Nodes'][0]['Facets']
 
